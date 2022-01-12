@@ -1,0 +1,13 @@
+redux flow to create new feature:
+go to constants and create constants
+next go to reducers and create reducer
+then go to store and add the reducer in combine reducer
+after all this we go to action to make a request to the backend
+then go to the screen and call the action using useDispatch 
+and useSelector to retrive data from the state and use inside the jsx
+
+
+we dispatch action from screens
+action goes to reducer
+reducer have constants and action also have constants
+constants are actually the action names

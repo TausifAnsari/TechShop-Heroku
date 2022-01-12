@@ -1,0 +1,7 @@
+first go to front end and npm run build to build the frontend
+It creates an optimized production build
+Next we go to server js and if the env is in production mode then we set /frontend/build as our static folder
+and then for all unknown routes we send index.html app.get('*') we send the file index.html
+
+By doing this if we run only the backend part which is npm start
+then on localhost:5000 we get our website (wow) w dont need to run front end part as we have done the build

@@ -1,0 +1,6 @@
+add multiple photos in product component with a carousel
+add all products in navbar and change home page to a beautiful ui
+adding stripe payment method
+
+search button remove just by typing search should appear
+add storybook and jest
